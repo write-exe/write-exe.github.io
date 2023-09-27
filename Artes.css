@@ -1,0 +1,85 @@
+
+/* Estilos generales */
+body {
+  font-family: 'Mooli', sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color : rgb(159, 119, 204)
+}
+.collage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Divide en 3 columnas iguales */
+    grid-gap: 10px; /* Espacio entre las imágenes */
+}
+
+.imagen{
+    width: 100%;
+    max-width: 700px; /* Ancho máximo para cada imagen */
+    height: auto;
+    border: 2px solid #65e6df;
+
+
+}
+
+/* Estilos del encabezado */
+header {
+  background-color: #e4980a;
+  color: #191a13;
+  padding: 20px;
+}
+
+
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Estilos de las secciones */
+section {
+  padding: 50px;
+}
+
+h2 {
+  color: #333;
+}
+
+/* Estilos del formulario de contacto */
+form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #aaa821;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+footer{
+  background-color: #39446e;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  
+}

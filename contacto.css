@@ -1,0 +1,72 @@
+body {
+    font-family: 'Kalam', cursive;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+
+.header {
+    background-color: #1d33f3;
+    color: #fff;
+    padding: 20px 0;
+}
+ 
+
+.demon{
+    text-align: center;
+    margin-top: 40px;
+
+
+}
+
+.botones{
+
+    text-align: center; /* Alinea los botones al centro */
+    margin-top: 20px;
+
+}
+
+img{
+ 
+    border-radius:10px;
+    box-shadow:5px;
+     
+
+
+}
+
+
+
+
+
+
+
+
+
+.boton{
+    
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff6b00;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+
+
+}
+
+
